@@ -35,7 +35,6 @@ class App extends Component {
         btnOtherCitiesStatus: false
       });
     }
-    
   }
 
   getLocation = (city) => this.state.locations.find((location) =>  location.city === city );
