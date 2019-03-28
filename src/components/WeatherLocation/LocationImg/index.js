@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LocationImg = ({location}) => {
-    const path = "/images/";
+    const path = "images/";
     const imagePath = `${path}${location.image}`;
 
     return(
